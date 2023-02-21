@@ -1,0 +1,23 @@
+{
+  "name": "cyoa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss:watch": "sass --watch sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bengera/CYOA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bengera/CYOA/issues"
+  },
+  "homepage": "https://github.com/bengera/CYOA#readme",
+  "devDependencies": {
+    "sass": "^1.58.3"
+  }
+}

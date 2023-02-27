@@ -62,7 +62,7 @@ h1 {
   height: 70px;
   border-radius: 10px;
 }
-.card__description {
+.card__description-cyan, .card__description-yellow, .card__description-pink {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 700;
   align-self: center;
@@ -116,6 +116,17 @@ h1 {
 
 .narrator-img {
   width: 200px;
+}
+
+#cyan-card,
+#yellow-card,
+#pink-card {
+  display: flex;
+  flex-direction: row-reverse;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  align-self: center;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
